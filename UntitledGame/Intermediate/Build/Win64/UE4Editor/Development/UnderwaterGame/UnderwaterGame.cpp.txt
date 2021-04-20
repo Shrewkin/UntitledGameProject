@@ -1,0 +1,2 @@
+C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Development\UnderwaterGame\Definitions.UnderwaterGame.h
+C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Source\UnderwaterGame\UnderwaterGame.h

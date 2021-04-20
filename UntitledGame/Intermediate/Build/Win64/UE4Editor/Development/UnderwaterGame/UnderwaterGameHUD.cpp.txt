@@ -1,0 +1,17 @@
+C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Development\UnderwaterGame\Definitions.UnderwaterGame.h
+C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Source\UnderwaterGame\UnderwaterGameHUD.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Inc\UnderwaterGame\UnderwaterGameHUD.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h

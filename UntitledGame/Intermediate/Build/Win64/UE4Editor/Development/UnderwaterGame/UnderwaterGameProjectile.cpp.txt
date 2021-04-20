@@ -1,0 +1,11 @@
+C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Development\UnderwaterGame\Definitions.UnderwaterGame.h
+C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Source\UnderwaterGame\UnderwaterGameProjectile.h
+C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Inc\UnderwaterGame\UnderwaterGameProjectile.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
