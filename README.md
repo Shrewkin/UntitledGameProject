@@ -5,7 +5,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Untitled Game Project</h3>
+  <h3 align="center">Untitled Underwater Game Project</h3>
 
   <p align="center">
     A game that has no title that I am working on this Summer.
