@@ -1,0 +1,14 @@
+Game Idea List:
+You are sent down to the bottom the of the ocean to retrieve ship wrecks and other objects of interest
+You can stop at "oil rigs" where you can sell the stuff you find
+The player starts in shallow and bright water, but as they progress, the water gets deeper and darker
+The game should convey the feeling of utter dread and hopelessness
+The deeper you go the weirder more cosmic horror like creatures you encounter
+Player sub only has narrow fov
+Game camera is above the player
+https://cdn.discordapp.com/attachments/335626017882505227/834755306625957928/5da890eecc4a0a7c6a5c7ac5.png
+https://cdn.discordapp.com/attachments/335626017882505227/834759785487925248/2Q.png
+https://cdn.discordapp.com/attachments/335626017882505227/834758952901541898/d737fe9374896b66eec58bcfb53f6c96.png
+https://i.pinimg.com/564x/20/1e/64/201e64f14ec1a0c745e164f5ce8b4fd6.jpg
+https://cdn.discordapp.com/attachments/335626017882505227/834755061544386570/1581241059994_1_1.webm
+https://static.wikia.nocookie.net/sunlesssea_gamepedia/images/6/63/Salt%27s_eye.PNG/revision/latest/scale-to-width-down/518?cb=20160221094407
