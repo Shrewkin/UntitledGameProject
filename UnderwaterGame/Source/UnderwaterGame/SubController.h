@@ -17,6 +17,9 @@ class UNDERWATERGAME_API ASubController : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* Camera;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadonly, meta = (AllowPrivateAccess = "true"))
+	float turnRate;
+
 public:
 	// Sets default values for this character's properties
 	ASubController();
@@ -26,6 +29,29 @@ protected:
 	virtual void BeginPlay() override;
 
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+	/// <summary>
+	/// Movement controller for forward and back movement
+	/// </summary>
+	/// <param name="value"></param>
+	void MoveForwardBack(float value);
+
+	/// <summary>
+	/// Movement controller for right and left movement
+	/// </summary>
+	/// <param name="value"></param>
+	void MoveRightLeft(float value);
+
+	/// <summary>
+	/// Movement controller for turning the player
+	/// </summary>
+	/// <param name="rate"></param>
+	void TurnAtRate(float rate);
+
+	// Movement controller for ascending and descending
+	void MoveUpDown(float value);
+
+	// Variable declarations
 
 public:	
 	// Called every frame

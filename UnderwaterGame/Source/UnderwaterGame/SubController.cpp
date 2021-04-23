@@ -29,6 +29,9 @@ ASubController::ASubController()
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->RotationRate = FRotator(0, 540, 0);
 
+	// Setting default values for public variables
+	turnRate = 50.0f;
+
 }
 
 // Called when the game starts or when spawned
@@ -39,6 +42,31 @@ void ASubController::BeginPlay()
 }
 
 void ASubController::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	check(PlayerInputComponent);
+
+	PlayerInputComponent->BindAxis("MoveForwardBack", this, &ASubController::MoveForwardBack);
+	PlayerInputComponent->BindAxis("MoveRightLeft", this, &ASubController::MoveRightLeft);
+	PlayerInputComponent->BindAxis("AscendDescend", this, &ASubController::MoveUpDown);
+	PlayerInputComponent->BindAxis("Turn", this, &ASubController::TurnAtRate);
+}
+
+void ASubController::MoveForwardBack(float value)
+{
+
+}
+
+void ASubController::MoveRightLeft(float value)
+{
+
+}
+
+void ASubController::TurnAtRate(float rate)
+{
+	AddControllerYawInput(rate * GetWorld()->GetDeltaSeconds() * turnRate)
+}
+
+void ASubController::MoveUpDown(float value)
 {
 
 }
