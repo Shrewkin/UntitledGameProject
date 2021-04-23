@@ -1,5 +1,0 @@
-C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Development\UnderwaterGame\Definitions.UnderwaterGame.h
-C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Source\UnderwaterGame/UnderwaterGameProjectile.h
-C:\Users\Striz\Documents\Unreal Projects\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Inc\UnderwaterGame\UnderwaterGameProjectile.generated.h

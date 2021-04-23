@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnderwaterGame",
+			"Path": "C:\\Users\\Striz\\Desktop\\UnderwaterGame\\UnderwaterGame\\Source\\UnderwaterGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnderwaterGameEditor",
+			"Path": "C:\\Users\\Striz\\Desktop\\UnderwaterGame\\UnderwaterGame\\Source\\UnderwaterGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

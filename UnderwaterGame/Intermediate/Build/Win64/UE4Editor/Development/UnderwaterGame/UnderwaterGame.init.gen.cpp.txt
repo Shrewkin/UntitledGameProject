@@ -1,0 +1,3 @@
+C:\Users\Striz\Desktop\UnderwaterGame\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Development\UnderwaterGame\Definitions.UnderwaterGame.h
+I:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+I:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
