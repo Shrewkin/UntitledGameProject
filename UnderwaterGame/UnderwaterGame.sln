@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{8E2F6A87-1826-34F4-940C-CC23A48F9FE4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnderwaterGame", "Intermediate\ProjectFiles\UnderwaterGame.vcxproj", "{FA1F5F85-D69A-4AEC-99B0-29815CCDB9B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23222EFE-74C2-4F01-B43F-40F82C8C0732} = {23222EFE-74C2-4F01-B43F-40F82C8C0732}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{23222EFE-74C2-4F01-B43F-40F82C8C0732}"
 EndProject
@@ -81,7 +84,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{23222EFE-74C2-4F01-B43F-40F82C8C0732} = {94A6C6F3-99B3-346E-9557-ABF9D4064DBD}
 		{FA1F5F85-D69A-4AEC-99B0-29815CCDB9B4} = {8E2F6A87-1826-34F4-940C-CC23A48F9FE4}
+		{23222EFE-74C2-4F01-B43F-40F82C8C0732} = {94A6C6F3-99B3-346E-9557-ABF9D4064DBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37C65479-62E3-4A01-8553-8999DE2B7346}
 	EndGlobalSection
 EndGlobal
