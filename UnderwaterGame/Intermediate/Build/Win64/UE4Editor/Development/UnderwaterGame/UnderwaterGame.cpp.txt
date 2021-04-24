@@ -1,2 +1,0 @@
-C:\Users\Striz\Desktop\UnderwaterGame\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Development\UnderwaterGame\Definitions.UnderwaterGame.h
-C:\Users\Striz\Desktop\UnderwaterGame\UnderwaterGame\Source\UnderwaterGame\UnderwaterGame.h

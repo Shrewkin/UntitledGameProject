@@ -1,9 +1,0 @@
-C:\Users\Striz\Desktop\UnderwaterGame\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Development\UnderwaterGame\Definitions.UnderwaterGame.h
-I:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-I:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Striz\Desktop\UnderwaterGame\UnderwaterGame\Source\UnderwaterGame/UnderwaterGameGameModeBase.h
-I:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-I:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-I:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-I:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\Striz\Desktop\UnderwaterGame\UnderwaterGame\Intermediate\Build\Win64\UE4Editor\Inc\UnderwaterGame\UnderwaterGameGameModeBase.generated.h
