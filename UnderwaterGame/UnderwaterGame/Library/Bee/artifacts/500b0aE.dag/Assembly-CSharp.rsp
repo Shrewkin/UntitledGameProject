@@ -307,7 +307,9 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Player/PlayerController.cs"
+"Assets/Camera/Player/Scripts/CameraFollow.cs"
+"Assets/Camera/Player/Scripts/FogEffect.cs"
+"Assets/Player/Scripts/PlayerController.cs"
 -langversion:8.0
 
 /deterministic
