@@ -1,42 +1,78 @@
-using UnityEngine;
+using System;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+[RequireComponent(typeof(InputHandler))]
 public class PlayerController : MonoBehaviour
 {
-	// Movement System
-	public float speed = 5.0f;
-	public float maxSpeed = 10.0f;
-	float curSpeed;
-	
-	// Rotation System
-    private Vector3 mousePos;
+    // Var for input handler
+    private InputHandler _input;
 
-	Rigidbody rigid;
-	private void Start()
-	{
-		rigid = GetComponent<Rigidbody>();
-	}
+    // bool to rotate towards mouse
+    [SerializeField]
+    private bool RotateTowardMouse;
 
-	private void FixedUpdate()
-	{
-		Movement();
-		Rotation();
-	}
+    // Movement speed and rotation speed
+    [SerializeField]
+    private float MovementSpeed;
+    [SerializeField]
+    private float RotationSpeed;
 
-	void Movement()
-	{
-		curSpeed = speed;
-		maxSpeed = curSpeed;
-		
-		// Movement Logic
-		rigid.velocity = new Vector3(
-			Mathf.Lerp(0, Input.GetAxis("Horizontal") * curSpeed, 0.8f),
-			rigid.velocity.y,
-			Mathf.Lerp(0, Input.GetAxis("Vertical") * curSpeed, 0.8f)
-		);
-	}
+    // Pointer to the camera
+    [SerializeField]
+    private Camera Camera;
 
-	void Rotation()
-	{
-	}
+    private void Awake()
+    {
+        // Initializes input as the input handler component
+        _input = GetComponent<InputHandler>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        // Creates a target vector in the direction of the mouse
+        var targetVector = new Vector3(_input.InputVector.x, 0, _input.InputVector.y);
+        var movementVector = MoveTowardTarget(targetVector);
+
+        if (!RotateTowardMouse)
+        {
+            RotateTowardMovementVector(movementVector);
+        }
+        if (RotateTowardMouse)
+        {
+            RotateFromMouseVector();
+        }
+
+    }
+
+    private void RotateFromMouseVector()
+    {
+        Ray ray = Camera.ScreenPointToRay(_input.MousePosition);
+
+        if (Physics.Raycast(ray, out RaycastHit hitInfo, maxDistance: 300f))
+        {
+            var target = hitInfo.point;
+            target.y = transform.position.y;
+            transform.LookAt(target);
+        }
+    }
+
+    private Vector3 MoveTowardTarget(Vector3 targetVector)
+    {
+        var speed = MovementSpeed * Time.deltaTime;
+
+        targetVector = Quaternion.Euler(0, Camera.gameObject.transform.rotation.eulerAngles.y, 0) * targetVector;
+        var targetPosition = transform.position + targetVector * speed;
+        transform.position = targetPosition;
+        return targetVector;
+    }
+
+    private void RotateTowardMovementVector(Vector3 movementDirection)
+    {
+        if(movementDirection.magnitude == 0) { return; }
+        var rotation = Quaternion.LookRotation(movementDirection);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, RotationSpeed);
+    }
 }

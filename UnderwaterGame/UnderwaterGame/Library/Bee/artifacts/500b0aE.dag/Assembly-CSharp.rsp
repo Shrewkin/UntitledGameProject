@@ -309,6 +309,7 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Camera/Player/Scripts/CameraFollow.cs"
 "Assets/Camera/Player/Scripts/FogEffect.cs"
+"Assets/Player/Scripts/InputHandler.cs"
 "Assets/Player/Scripts/PlayerController.cs"
 -langversion:8.0
 
