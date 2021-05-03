@@ -18,10 +18,16 @@ public class PlayerController : MonoBehaviour
     private float MovementSpeed;
     [SerializeField]
     private float RotationSpeed;
+    [SerializeField]
+    private float VerticalSpeed;
 
     // Pointer to the camera
     [SerializeField]
     private Camera Camera;
+
+    // Bool to allow player to go up and down
+    [SerializeField]
+    private bool VerticalTraverseBool;
 
     private void Awake()
     {
@@ -40,6 +46,7 @@ public class PlayerController : MonoBehaviour
         {
             RotateTowardMovementVector(movementVector);
         }
+
         if (RotateTowardMouse)
         {
             RotateFromMouseVector();
@@ -61,18 +68,45 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 MoveTowardTarget(Vector3 targetVector)
     {
-        var speed = MovementSpeed * Time.deltaTime;
+        var horizontalSpeed = MovementSpeed * Time.deltaTime;
+        var verticalSpeed = VerticalSpeed * Time.deltaTime;
 
         targetVector = Quaternion.Euler(0, Camera.gameObject.transform.rotation.eulerAngles.y, 0) * targetVector;
-        var targetPosition = transform.position + targetVector * speed;
+
+        if (VerticalTraverseBool)
+        {
+            targetVector = VerticalTraverse(targetVector);
+        }
+
+        var targetPosition = transform.position + targetVector * horizontalSpeed;
+
         transform.position = targetPosition;
         return targetVector;
     }
 
     private void RotateTowardMovementVector(Vector3 movementDirection)
     {
-        if(movementDirection.magnitude == 0) { return; }
+        if (movementDirection.magnitude == 0) { return; }
         var rotation = Quaternion.LookRotation(movementDirection);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, RotationSpeed);
+    }
+
+    // Moves the player up and down
+    private Vector3 VerticalTraverse(Vector3 targetVector)
+    {
+        var speed = VerticalSpeed * Time.deltaTime;
+
+        // If space pressed, go up
+        if (Input.GetKey(KeyCode.Space))
+        {
+            targetVector.y = VerticalSpeed + targetVector.y;
+        }
+        // If shift is pressed, go down
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            targetVector.y = -VerticalSpeed + targetVector.y;
+        }
+
+        return targetVector;
     }
 }

@@ -280,6 +280,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 257754174645750908, guid: 184271070eb8abc4d8fc7952f403f9d7,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 257754174645750908, guid: 184271070eb8abc4d8fc7952f403f9d7,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 257754174645750909, guid: 184271070eb8abc4d8fc7952f403f9d7,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 257754174645750911, guid: 184271070eb8abc4d8fc7952f403f9d7,
         type: 3}
       propertyPath: m_Name
@@ -308,7 +323,9 @@ MonoBehaviour:
   RotateTowardMouse: 1
   MovementSpeed: 5
   RotationSpeed: 10
+  VerticalSpeed: 5
   Camera: {fileID: 1944466907}
+  VerticalTraverseBool: 1
 --- !u!114 &1403447565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,7 +359,7 @@ PrefabInstance:
     - target: {fileID: 9015156783102180601, guid: 9afd21651f08adc4db441c4c7c84cfc1,
         type: 3}
       propertyPath: orthographic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9015156783102180601, guid: 9afd21651f08adc4db441c4c7c84cfc1,
         type: 3}
@@ -468,6 +485,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.243
+      objectReference: {fileID: 0}
+    - target: {fileID: 621097541372514847, guid: 0f991d0c820c52c4e81cee19e05cf340,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 621097541372514847, guid: 0f991d0c820c52c4e81cee19e05cf340,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 621097541372514847, guid: 0f991d0c820c52c4e81cee19e05cf340,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3271191341831589272, guid: 0f991d0c820c52c4e81cee19e05cf340,
         type: 3}
