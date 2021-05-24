@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
         if (RotateTowardMouse)
         {
-            RotateFromMouseVector();
+            // RotateFromMouseVector();
         }
 
     }
@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
 
     private void RotateTowardMovementVector(Vector3 movementDirection)
     {
-        if (movementDirection.magnitude == 0) { return; }
+        if (movementDirection.magnitude == 0) return;
         var rotation = Quaternion.LookRotation(movementDirection);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, RotationSpeed);
     }
